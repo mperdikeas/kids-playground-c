@@ -131,4 +131,29 @@
 (defn plus [ f ]
   (fn [ x ]
     (inc (f x))))
-
+(defn sumofmultiples
+  [ n m ]
+  (apply +(multiple 3 5 (range 1 (inc 1000)))))
+(println
+ (this program is the natural project euler
+       otherwise the function becomes
+       like this)
+ (defn sumofmultiples [ n m ]
+   (apply +
+          (multiple 3 5(range 1 (inc n)))))
+ (defn cliff
+   [ n ]
+   (apply +
+          (range 1
+                 (inc n))))
+ (println " the cliff of
+3 is "
+          (cliff 3))
+ (plusone
+  (println
+   " the cliff of 3 is "
+   (cliff 3)))
+ 
+ 
+  
+ 
